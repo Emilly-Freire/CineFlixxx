@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cineback.HelloControllerTest" time="0.73" tests="2" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="25.0.3+9-LTS"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.3.9-hotspot\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Tavin\cineflix\CineFlixxx"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="stdin.encoding" value="cp850"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Tavin\cineflix\CineFlixxx"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="25.0.3+9-LTS"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Tavin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="stderr.encoding" value="cp850"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\Users\Tavin\tools\apache-maven-3.9.11\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="stdout.encoding" value="cp850"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.3.9-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Tavin\tools\apache-maven-3.9.11\bin;c:\Users\Tavin\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\Tavin\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Eclipse Adoptium\jdk-25.0.3.9-hotspot\bin;O:\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;O:\node.js\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\Tavin\Downloads\w64devkit\bin;C:\Users\Tavin\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\Tavin\.vscode\extensions\vscjava.vscode-java-debug-0.60.0\bundled\scripts\noConfigScripts;."/>
+    <property name="maven.conf" value="C:\Users\Tavin\tools\apache-maven-3.9.11/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="69.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\Tavin\tools\apache-maven-3.9.11\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Tavin"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="25"/>
+    <property name="user.name" value="emy e otavio ♡"/>
+    <property name="java.class.path" value="C:\Users\Tavin\tools\apache-maven-3.9.11\boot\plexus-classworlds-2.9.0.jar"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f demo/pom.xml test"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.3.9-hotspot"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="25.0.3"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="C:\Users\Tavin\tools\apache-maven-3.9.11"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-25.0.3+9"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testHello" classname="com.cineback.HelloControllerTest" time="0.548">
+    <error message="Unable to make field protected byte[] java.io.ByteArrayOutputStream.buf accessible: module java.base does not &quot;opens java.io&quot; to unnamed module @368239c8" type="java.lang.reflect.InaccessibleObjectException">java.lang.reflect.InaccessibleObjectException: Unable to make field protected byte[] java.io.ByteArrayOutputStream.buf accessible: module java.base does not "opens java.io" to unnamed module @368239c8
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:353)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:329)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:277)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:179)
+	at java.base/java.lang.reflect.AccessibleObject.setAccessible(AccessibleObject.java:107)
+	at org.codehaus.groovy.reflection.CachedClass$1$1.run(CachedClass.java:55)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:74)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:50)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:48)
+	at org.codehaus.groovy.util.LazyReference.getLocked(LazyReference.java:49)
+	at org.codehaus.groovy.util.LazyReference.get(LazyReference.java:36)
+	at org.codehaus.groovy.reflection.CachedClass.getFields(CachedClass.java:264)
+	at groovy.lang.MetaClassImpl.addFields(MetaClassImpl.java:2377)
+	at groovy.lang.MetaClassImpl.inheritFields(MetaClassImpl.java:2372)
+	at groovy.lang.MetaClassImpl.setupProperties(MetaClassImpl.java:2259)
+	at groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3302)
+	at groovy.lang.MetaClassImpl.initialize(MetaClassImpl.java:3266)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:254)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:285)
+	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.getMetaClass(MetaClassRegistryImpl.java:257)
+	at org.codehaus.groovy.runtime.InvokerHelper.getMetaClass(InvokerHelper.java:875)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallConstructorSite(CallSiteArray.java:87)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:239)
+	at com.jayway.restassured.internal.RestAssuredResponseOptionsGroovyImpl.convertStreamToByteArray(RestAssuredResponseOptionsGroovyImpl.groovy:424)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite$StaticMetaMethodSiteNoUnwrapNoCoerce.invoke(StaticMetaMethodSite.java:151)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.callStatic(StaticMetaMethodSite.java:102)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:56)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:194)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:206)
+	at com.jayway.restassured.internal.RestAssuredResponseOptionsGroovyImpl.charsetToString(RestAssuredResponseOptionsGroovyImpl.groovy:481)
+	at com.jayway.restassured.internal.RestAssuredResponseOptionsGroovyImpl$charsetToString$3.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at com.jayway.restassured.internal.RestAssuredResponseOptionsGroovyImpl.asString(RestAssuredResponseOptionsGroovyImpl.groovy:169)
+	at com.jayway.restassured.internal.RestAssuredResponseOptionsGroovyImpl.asString(RestAssuredResponseOptionsGroovyImpl.groovy:165)
+	at com.jayway.restassured.internal.RestAssuredResponseOptionsImpl.asString(RestAssuredResponseOptionsImpl.java:193)
+	at com.jayway.restassured.response.ResponseBodyData$asString.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at com.jayway.restassured.assertion.BodyMatcher.fallbackToResponseBodyIfContentParserIsNull(BodyMatcher.groovy:110)
+	at com.jayway.restassured.assertion.BodyMatcher$fallbackToResponseBodyIfContentParserIsNull$1.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:56)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:194)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:214)
+	at com.jayway.restassured.assertion.BodyMatcher.validate(BodyMatcher.groovy:44)
+	at com.jayway.restassured.assertion.BodyMatcher$validate$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at com.jayway.restassured.assertion.BodyMatcherGroup$_validate_closure2.doCall(BodyMatcherGroup.groovy:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:294)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1019)
+	at groovy.lang.Closure.call(Closure.java:426)
+	at groovy.lang.Closure.call(Closure.java:442)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.collect(DefaultGroovyMethods.java:3170)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.collect(DefaultGroovyMethods.java:3140)
+	at org.codehaus.groovy.runtime.dgm$66.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:274)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:56)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at com.jayway.restassured.assertion.BodyMatcherGroup.validate(BodyMatcherGroup.groovy:47)
+	at com.jayway.restassured.assertion.BodyMatcherGroup$validate$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:561)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:732)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:92)
+	at com.jayway.restassured.specification.ResponseSpecification$content$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:207)
+	at com.jayway.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:251)
+	at com.cineback.HelloControllerTest.testHello(HelloControllerTest.java:34)
+</error>
+    <system-out><![CDATA[21:40:19.094 [main] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.cineback.HelloControllerTest]
+21:40:19.098 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper from class [org.springframework.test.context.web.WebTestContextBootstrapper]
+21:40:19.109 [main] DEBUG o.s.t.c.w.WebTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@16022d9d declaringClass = 'com.cineback.HelloControllerTest', classes = '{class com.cineback.App}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+21:40:19.112 [main] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.cineback.HelloControllerTest]
+21:40:19.119 [main] INFO  o.s.t.c.w.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.boot.test.IntegrationTestPropertiesListener@282003e1, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7fad8c79, org.springframework.test.context.support.DirtiesContextTestExecutionListener@71a794e5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@76329302, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5e25a92e]
+21:40:19.120 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cineback.HelloControllerTest]
+21:40:19.120 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cineback.HelloControllerTest]
+21:40:19.120 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cineback.HelloControllerTest]
+21:40:19.121 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cineback.HelloControllerTest]
+21:40:19.123 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cineback.HelloControllerTest]
+21:40:19.123 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cineback.HelloControllerTest]
+21:40:19.124 [main] DEBUG o.s.test.util.ReflectionTestUtils - Getting field [mergedContextConfiguration] from target [[DefaultTestContext@516be40f testClass = HelloControllerTest, testInstance = com.cineback.HelloControllerTest@3c0a50da, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@646be2c3 testClass = HelloControllerTest, locations = '{}', classes = '{class com.cineback.App}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]]
+21:40:19.126 [main] DEBUG o.s.test.util.ReflectionTestUtils - Setting field [propertySourceProperties] of type [null] on target [[WebMergedContextConfiguration@646be2c3 testClass = HelloControllerTest, locations = '{}', classes = '{class com.cineback.App}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]] to value [[Ljava.lang.String;@23a5fd2]
+21:40:19.128 [main] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@516be40f testClass = HelloControllerTest, testInstance = com.cineback.HelloControllerTest@3c0a50da, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@646be2c3 testClass = HelloControllerTest, locations = '{}', classes = '{class com.cineback.App}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{server.port:0, spring.datasource.url:jdbc:h2:mem:demo;DB_CLOSE_ON_EXIT=FALSE, org.springframework.boot.test.IntegrationTest=true}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]].
+21:40:19.175 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+21:40:19.177 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+21:40:19.177 [main] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+21:40:19.178 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+2026-10-20 21:40:19.342  INFO 32416 --- [           main] com.cineback.HelloControllerTest         : Starting HelloControllerTest on Octeivios-Note with PID 32416 (C:\Users\Tavin\cineflix\CineFlixxx\demo\target\test-classes started by emy e otavio ♡ in C:\Users\Tavin\cineflix\CineFlixxx\demo)
+2026-10-20 21:40:19.452  INFO 32416 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7c711375: startup date [Tue Oct 20 21:40:19 GMT-03:00 2026]; root of context hierarchy
+2026-10-20 21:40:19.779  INFO 32416 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2026-10-20 21:40:20.153  INFO 32416 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$23861499] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2026-10-20 21:40:20.165  INFO 32416 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2026-10-20 21:40:20.168  INFO 32416 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2026-10-20 21:40:20.170  INFO 32416 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2026-10-20 21:40:20.350  INFO 32416 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 0 (http)
+2026-10-20 21:40:20.514  INFO 32416 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2026-10-20 21:40:20.515  INFO 32416 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.28
+2026-10-20 21:40:20.579  INFO 32416 --- [ost-startStop-1] org.apache.catalina.loader.WebappLoader  : Unknown loader jdk.internal.loader.ClassLoaders$AppClassLoader@5bc2b487 class jdk.internal.loader.ClassLoaders$AppClassLoader
+2026-10-20 21:40:20.591  INFO 32416 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-20 21:40:20.591  INFO 32416 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1151 ms
+2026-10-20 21:40:20.931  INFO 32416 --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2026-10-20 21:40:20.933  INFO 32416 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'metricFilter' to: [/*]
+2026-10-20 21:40:20.933  INFO 32416 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2026-10-20 21:40:20.934  INFO 32416 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2026-10-20 21:40:20.934  INFO 32416 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2026-10-20 21:40:20.934  INFO 32416 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2026-10-20 21:40:21.115  INFO 32416 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7c711375: startup date [Tue Oct 20 21:40:19 GMT-03:00 2026]; root of context hierarchy
+2026-10-20 21:40:21.147  INFO 32416 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto java.lang.String com.cineback.Controllers.HelloController.hello()
+2026-10-20 21:40:21.147  INFO 32416 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/calc]}" onto com.cineback.Controllers.HelloController$Result com.cineback.Controllers.HelloController.calc(int,int)
+2026-10-20 21:40:21.148  INFO 32416 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2026-10-20 21:40:21.148  INFO 32416 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2026-10-20 21:40:21.162  INFO 32416 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2026-10-20 21:40:21.163  INFO 32416 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2026-10-20 21:40:21.182  INFO 32416 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2026-10-20 21:40:21.330  INFO 32416 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2026-10-20 21:40:21.331  INFO 32416 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2026-10-20 21:40:21.331  INFO 32416 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2026-10-20 21:40:21.331  INFO 32416 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2026-10-20 21:40:21.331  INFO 32416 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+2026-10-20 21:40:21.332  INFO 32416 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2026-10-20 21:40:21.332  INFO 32416 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2026-10-20 21:40:21.332  INFO 32416 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2026-10-20 21:40:21.332  INFO 32416 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2026-10-20 21:40:21.333  INFO 32416 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2026-10-20 21:40:21.333  INFO 32416 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2026-10-20 21:40:21.333  INFO 32416 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump],methods=[GET]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2026-10-20 21:40:21.413  INFO 32416 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 62390 (http)
+2026-10-20 21:40:21.416  INFO 32416 --- [           main] com.cineback.HelloControllerTest         : Started HelloControllerTest in 2.234 seconds (JVM running for 2.566)
+2026-10-20 21:40:21.873  INFO 32416 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2026-10-20 21:40:21.873  INFO 32416 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2026-10-20 21:40:21.883  INFO 32416 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 10 ms
+]]></system-out>
+  </testcase>
+  <testcase name="testCalc" classname="com.cineback.HelloControllerTest" time="0.182">
+    <error message="Unable to make field protected byte[] java.io.ByteArrayOutputStream.buf accessible: module java.base does not &quot;opens java.io&quot; to unnamed module @368239c8" type="java.lang.reflect.InaccessibleObjectException">java.lang.reflect.InaccessibleObjectException: Unable to make field protected byte[] java.io.ByteArrayOutputStream.buf accessible: module java.base does not "opens java.io" to unnamed module @368239c8
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:353)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:329)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:277)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:179)
+	at java.base/java.lang.reflect.AccessibleObject.setAccessible(AccessibleObject.java:107)
+	at org.codehaus.groovy.reflection.CachedClass$1$1.run(CachedClass.java:55)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:74)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:50)
+	at org.codehaus.groovy.reflection.CachedClass$1.initValue(CachedClass.java:48)
+	at org.codehaus.groovy.util.LazyReference.getLocked(LazyReference.java:49)
+	at org.codehaus.groovy.util.LazyReference.get(LazyReference.java:36)
+	at org.codehaus.groovy.reflection.CachedClass.getFields(CachedClass.java:264)
+	at groovy.lang.MetaClassImpl.addFields(MetaClassImpl.java:2377)
+	at groovy.lang.MetaClassImpl.inheritFields(MetaClassImpl.java:2372)
+	at groovy.lang.MetaClassImpl.setupProperties(MetaClassImpl.java:2259)
+	at groovy.lang.MetaClassImpl.addProperties(MetaClassImpl.java:3302)
+	at groovy.lang.MetaClassImpl.initialize(MetaClassImpl.java:3266)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:254)
+	at org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:285)
+	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.getMetaClass(MetaClassRegistryImpl.java:257)
+	at org.codehaus.groovy.runtime.InvokerHelper.getMetaClass(InvokerHelper.java:875)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallConstructorSite(CallSiteArray.java:87)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:239)
+	at com.jayway.restassured.internal.RestAssuredResponseOptionsGroovyImpl.convertStreamToByteArray(RestAssuredResponseOptionsGroovyImpl.groovy:424)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite$StaticMetaMethodSiteNoUnwrapNoCoerce.invoke(StaticMetaMethodSite.java:151)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.callStatic(StaticMetaMethodSite.java:102)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:206)
+	at com.jayway.restassured.internal.RestAssuredResponseOptionsGroovyImpl.charsetToString(RestAssuredResponseOptionsGroovyImpl.groovy:481)
+	at com.jayway.restassured.internal.RestAssuredResponseOptionsGroovyImpl$charsetToString$3.callCurrent(Unknown Source)
+	at com.jayway.restassured.internal.RestAssuredResponseOptionsGroovyImpl.asString(RestAssuredResponseOptionsGroovyImpl.groovy:169)
+	at com.jayway.restassured.internal.RestAssuredResponseOptionsImpl.asString(RestAssuredResponseOptionsImpl.java:197)
+	at com.jayway.restassured.internal.RestAssuredResponseOptionsImpl$asString$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at com.jayway.restassured.internal.ContentParser.parse(ContentParser.groovy:40)
+	at com.jayway.restassured.internal.ContentParser$parse.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:559)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:732)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:228)
+	at com.jayway.restassured.specification.ResponseSpecification$content$1.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:190)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:211)
+	at com.jayway.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:257)
+	at com.cineback.HelloControllerTest.testCalc(HelloControllerTest.java:43)
+</error>
+    <system-out><![CDATA[2026-10-20 21:40:22.085 DEBUG 32416 --- [o-auto-1-exec-2] jdbc.sqltiming                           :  org.springframework.jdbc.core.JdbcTemplate$1.doInPreparedStatement(JdbcTemplate.java:703)
+1. SELECT 100 + 200 AS answer
+ {executed in 2 msec}
+2026-10-20 21:40:22.089  INFO 32416 --- [o-auto-1-exec-2] jdbc.resultsettable                      : 
+|-------|
+|answer |
+|-------|
+|300    |
+|-------|
+
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,15 @@
+com\cineback\Gateway\SistemaPagamento.class
+com\cineback\repositories\PagamentoRepositoryFake.class
+com\cineback\Models\Pagamento.class
+com\cineback\Models\Usuario.class
+com\cineback\Gateway\SistemaPagamentoFake.class
+com\cineback\repositories\UsuarioRepository.class
+com\cineback\services\PagamentoService.class
+com\cineback\App.class
+com\cineback\AppConfig.class
+com\cineback\Controllers\HelloController.class
+com\cineback\Models\Assinatura.class
+com\cineback\repositories\PagamentoRepository.class
+com\cineback\repositories\AssinaturaRepository.class
+com\cineback\Models\FormaPagamento.class
+com\cineback\Controllers\HelloController$Result.class
